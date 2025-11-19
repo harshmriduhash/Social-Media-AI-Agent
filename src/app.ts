@@ -12,7 +12,6 @@ import { connectDB } from './config/db';
 
 // Set up process-level error handlers
 setupErrorHandlers();
-
 // Initialize environment variables
 dotenv.config();
 
