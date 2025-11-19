@@ -22,8 +22,6 @@ const app: Application = express();
 // Connect to the database
 connectDB();
 
-
-
 // Middleware setup
 app.use(helmet({ xssFilter: true, noSniff: true })); // Security headers
 app.use(express.json()); // JSON body parsing
