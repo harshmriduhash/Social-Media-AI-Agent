@@ -1,10 +1,8 @@
 /* eslint-disable no-unused-vars */
 import { GoogleGenerativeAI, SchemaType } from "@google/generative-ai";
 import logger from "../../config/logger";
-
 import dotenv from "dotenv";
 dotenv.config();
-
 
 const geminiApiKeys = [
     process.env.GEMINI_API_KEY_1 || "API_KEY_1",
