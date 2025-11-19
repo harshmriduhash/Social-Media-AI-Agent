@@ -45,7 +45,6 @@ export async function parseFile(fileBuffer: Buffer, fileType: SupportedFileType)
 
 
 
-
 async function testParse() {
     try {
         // Define the file path and type
